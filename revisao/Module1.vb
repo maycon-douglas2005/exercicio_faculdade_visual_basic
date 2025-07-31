@@ -1,6 +1,6 @@
 ﻿Module Module1
     Dim nome As String
-    Dim idade As String 'Como não vou realizar cálculos com essa váriavel, então vou deixa-la como String
+    Dim idade As String
     Dim saldo As Double
 
     Sub Main()
@@ -27,7 +27,6 @@
 
             If respostaInformacoes = "s" Then
                 Console.WriteLine("Cadastro concluído com sucesso! Aguarde em quanto iniciamos o sistema bancário...")
-                'Colocar chamado de método para iniciar sistema bancário aq.
                 informacoesCompletas = True
             End If
         End While
